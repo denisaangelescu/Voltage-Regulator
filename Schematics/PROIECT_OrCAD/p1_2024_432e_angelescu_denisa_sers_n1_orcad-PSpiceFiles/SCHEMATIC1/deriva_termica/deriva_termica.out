@@ -1,7 +1,7 @@
 
-**** 11/22/24 16:02:29 *** PSpice 24.1.0 (4 September 2024) *** ID# 0 ********
+**** 01/19/25 13:34:18 *** PSpice 24.1.0 (4 September 2024) *** ID# 0 ********
 
- ** Profile: "SCHEMATIC1-deriva_termica"  [ C:\Users\denis\Desktop\P1_2024_432E_Angelescu_Denisa_SERS_N1_OrCAD\Schematics\PROIECT_OrC
+ ** Profile: "SCHEMATIC1-deriva_termica"  [ C:\Users\denis\Desktop\P1_2024_432E_Angelescu_Denisa_SERS_N1_OrCAD\P1_2024_432E_Angelescu
 
 
  ****     CIRCUIT DESCRIPTION
@@ -18,12 +18,12 @@
 *Libraries: 
 * Profile Libraries :
 * Local Libraries :
-.LIB "C:/Users/denis/Desktop/P1_2024_432E_Angelescu_Denisa_SERS_N1_OrCAD/Schematics/lib_modelepspice_anexa_1/modele_a1_lib/bc807-25"
-+ ".lib" 
-.LIB "C:/Users/denis/Desktop/P1_2024_432E_Angelescu_Denisa_SERS_N1_OrCAD/Schematics/lib_modelepspice_anexa_1/modele_a1_lib/bc846b.l"
-+ "ib" 
-.LIB "C:/Users/denis/Desktop/P1_2024_432E_Angelescu_Denisa_SERS_N1_OrCAD/Schematics/lib_modelepspice_anexa_1/modele_a1_lib/bzx84c2v"
-+ "7.lib" 
+.LIB "C:/Users/denis/Desktop/P1_2024_432E_Angelescu_Denisa_SERS_N1_OrCAD/P1_2024_432E_Angelescu_Denisa_SERS_N1_OrCAD/Schematics/lib"
++ "_modelepspice_anexa_1/modele_a1_lib/bc807-25.lib" 
+.LIB "C:/Users/denis/Desktop/P1_2024_432E_Angelescu_Denisa_SERS_N1_OrCAD/P1_2024_432E_Angelescu_Denisa_SERS_N1_OrCAD/Schematics/lib"
++ "_modelepspice_anexa_1/modele_a1_lib/bc846b.lib" 
+.LIB "C:/Users/denis/Desktop/P1_2024_432E_Angelescu_Denisa_SERS_N1_OrCAD/P1_2024_432E_Angelescu_Denisa_SERS_N1_OrCAD/Schematics/lib"
++ "_modelepspice_anexa_1/modele_a1_lib/bzx84c2v7.lib" 
 * From [PSPICE NETLIST] section of C:\Users\denis\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\24.1.0\PSpice.ini file:
 .lib "nom.lib" 
 
@@ -43,7 +43,7 @@ R_R8         0 N00895  100 TC=0,0
 R_R10         N01010 N00296  33 TC=0,0 
 R_R11         N01014 N00296  33 TC=0,0 
 R_R16         N01103 N47246  1 TC=0,0 
-X_P1         N08738 N00707 N00707 POT PARAMS: SET=0 VALUE=10k
+X_P1         N08738 N00707 N00707 POT PARAMS: SET=1 VALUE=10k
 R_R17         N09220 N08738  1k TC=0,0 
 R_R18         0 N09224  510 TC=0,0 
 X_P2         N09224 N09228 N09220 POT PARAMS: SET=0.8 VALUE=5k
@@ -74,9 +74,9 @@ R_R34         N55538 N08738  100 TC=0,0
 **** RESUMING deriva_termica.cir ****
 .END
 
-**** 11/22/24 16:02:29 *** PSpice 24.1.0 (4 September 2024) *** ID# 0 ********
+**** 01/19/25 13:34:18 *** PSpice 24.1.0 (4 September 2024) *** ID# 0 ********
 
- ** Profile: "SCHEMATIC1-deriva_termica"  [ C:\Users\denis\Desktop\P1_2024_432E_Angelescu_Denisa_SERS_N1_OrCAD\Schematics\PROIECT_OrC
+ ** Profile: "SCHEMATIC1-deriva_termica"  [ C:\Users\denis\Desktop\P1_2024_432E_Angelescu_Denisa_SERS_N1_OrCAD\P1_2024_432E_Angelescu
 
 
  ****     Diode MODEL PARAMETERS
@@ -101,9 +101,9 @@ R_R34         N55538 N08738  100 TC=0,0
            M     .31964                      
 
 
-**** 11/22/24 16:02:29 *** PSpice 24.1.0 (4 September 2024) *** ID# 0 ********
+**** 01/19/25 13:34:18 *** PSpice 24.1.0 (4 September 2024) *** ID# 0 ********
 
- ** Profile: "SCHEMATIC1-deriva_termica"  [ C:\Users\denis\Desktop\P1_2024_432E_Angelescu_Denisa_SERS_N1_OrCAD\Schematics\PROIECT_OrC
+ ** Profile: "SCHEMATIC1-deriva_termica"  [ C:\Users\denis\Desktop\P1_2024_432E_Angelescu_Denisa_SERS_N1_OrCAD\P1_2024_432E_Angelescu
 
 
  ****     BJT MODEL PARAMETERS
@@ -161,9 +161,9 @@ R_R34         N55538 N08738  100 TC=0,0
 
           JOB CONCLUDED
 
-**** 11/22/24 16:02:29 *** PSpice 24.1.0 (4 September 2024) *** ID# 0 ********
+**** 01/19/25 13:34:18 *** PSpice 24.1.0 (4 September 2024) *** ID# 0 ********
 
- ** Profile: "SCHEMATIC1-deriva_termica"  [ C:\Users\denis\Desktop\P1_2024_432E_Angelescu_Denisa_SERS_N1_OrCAD\Schematics\PROIECT_OrC
+ ** Profile: "SCHEMATIC1-deriva_termica"  [ C:\Users\denis\Desktop\P1_2024_432E_Angelescu_Denisa_SERS_N1_OrCAD\P1_2024_432E_Angelescu
 
 
  ****     JOB STATISTICS SUMMARY
@@ -173,5 +173,5 @@ R_R34         N55538 N08738  100 TC=0,0
 
 
 
-  Total job time (using Solver 1)   =         .13
+  Total job time (using Solver 1)   =         .05
 

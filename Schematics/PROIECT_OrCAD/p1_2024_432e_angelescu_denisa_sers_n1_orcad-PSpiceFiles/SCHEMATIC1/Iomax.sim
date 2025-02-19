@@ -3,7 +3,7 @@
 @Settings: 1 1
 @General:
 ProfileName= "Iomax" 
-ProfileFile= "Iomax.sim" 
+ProfileFile= "iomax.sim" 
 Connectivity= "SCHEMATIC1.net" 
 NetlistFile= "Iomax.cir" 
 DataFile= "Iomax.dat" 
